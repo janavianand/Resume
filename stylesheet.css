@@ -66,12 +66,15 @@ p{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-h2{
+/*h2{
 	cursor: pointer;
-}
+}*/
 .align {
 	text-align: left;
 }
 .arrange{
 	padding-top: 20px;
+}
+.size{
+	font-size: 30px;
 }
