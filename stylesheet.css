@@ -2,54 +2,25 @@
 	border-radius:10px;
 	border-style: groove;
 }
- #header{
-	position: relative;
-	z-index:1;
-	width: 97.5%;
-	margin-top: 10px;
-	height: 80px;
-	background-color: #7F8C8D;
-	margin-bottom: 10px; 
-}
-
-#footer{
-	
-	height: 80px;
-	width: 97.5%;
-	margin-top:800px;
-	position: absolute;
-	margin-bottom:10px;
-
-}
-.block{
-	height:300px;
-	width:400px;
-	background-color:#7F8C8D;
-	display:inline-block;
-	position: relative;
-	margin-top:400px;
-	margin-left:30px;
-	margin-bottom: 100px;
-}
-	
-h1{
-	text-align: center;
-}
-h2{
-	text-align: center;
-}
-p{
-	text-align: center;
-	font-size: 25px;
-	font-style: italic;
-}
-
-
+ 
 
 
 */
+.panels{
+	border-radius: 5px;
+
+}
+body{
+
+
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
 h1{
 	text-align: center;
+	color: white;
 }
 .spacing{
 	margin-left: 15px;
@@ -77,6 +48,7 @@ p{
 }
 .size{
 	font-size: 30px;
+	color: white;
 }
 .image{
 	width:100%;
@@ -89,8 +61,39 @@ p{
 	margin-right: 450px;
 }
 .cpu{
-	margin-left: 650px;
+	margin-left: 700px;
 	margin-right: -200px;
 	margin-top: 400px;
 
 }
+.color{
+	color: black;
+}
+.margin{
+	margin-left: 80px;
+	margin-right: 200px;
+}
+.back{
+
+
+
+background: #fd746c; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+   }     
+   .cont{
+   	
+
+background: #614385; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+   }
+   .font{
+   	color: white;
+   	font-size: 17px;
+   }
+   .right{
+   	text-align: right;
+   }
