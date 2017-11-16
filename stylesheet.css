@@ -97,3 +97,32 @@ background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, F
    .right{
    	text-align: right;
    }
+
+
+   .black{
+   	color: black;
+   	font-weight: bold;
+   	
+   	
+   }
+
+   .box{
+   	/*opacity: 0.2;
+   	filter: alpha(opacity=20);*/
+   	margin: 10px;
+   	
+   	top: 8px;
+    left: 16px;
+    margin-right: 30px;
+    background: url(https://cdn.pixabay.com/photo/2017/08/23/20/57/stone-2674296_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+   }
+
+   .opq{
+   	opacity: 0.8;
+   	filter: alpha(opacity=80);
+   }
+
+
